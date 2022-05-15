@@ -9,5 +9,5 @@ web api ASP.NET 6
 2. Реализованы CRUD операции с данными из БД MS SQL (подключена через Entity Framework, создаётся при первом обращении). Запросы с фронтенда на странице users.html;
 
 Данные для входа:
-tom@gmail.com, 12345
-bob@gmail.com, 55555
+tom@gmail.com 12345; 
+bob@gmail.com, 55555;
