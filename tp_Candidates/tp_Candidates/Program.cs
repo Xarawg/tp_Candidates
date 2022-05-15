@@ -5,9 +5,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
 
-
 // условная бд с пользователями
-
 var people = new List<Person>
 {
     new Person("tom@gmail.com", "12345"),
@@ -38,8 +36,6 @@ string connection = "Server=(localdb)\\mssqllocaldb;Database=applicationdb;Trust
 
 // добавляем класс ApplicationContext в сервисы приложения
 builder.Services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connection));
-
-
 
 var app = builder.Build();
 
@@ -81,20 +77,6 @@ app.MapPost("/login", (Person loginData) =>
 // встраиваем компонент для подключения авторизации
 // app.Map("/hello", [Authorize] () => "Hello World!");
 app.Map("/data", [Authorize] () => new { message = "Hello World!" });
-
-
-/* начальные данные взяты с metanit.com/sharp/aspnet6/11.1.php
-затем добавлены элементы из различных статей с этого же сайта.
-раскоментировано и изменено самолично
-*/
-
-
-
-
-
-
-
-
 
 // отправление списка объектов Users по запросу через запрос в БД
 app.MapGet("/api/users", async (ApplicationContext db) => await db.Users.ToListAsync());
@@ -155,14 +137,3 @@ app.MapPut("/api/users", async (User userData, ApplicationContext db) =>
 });
 
 app.Run();
-
-
-
-
-
-/*
-public static AuthenticationBuilder AddAuthentication(this IServiceCollection services);
-public static AuthenticationBuilder AddAuthentication(this IServiceCollection services, string defaultScheme);
-public static AuthenticationBuilder AddAuthentication(this IServiceCollection services, Action>AuthenticationOptions> configureOptions);
-
-*/
