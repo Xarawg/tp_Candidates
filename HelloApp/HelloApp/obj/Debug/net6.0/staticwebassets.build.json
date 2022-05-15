@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "7Cc0aVBaLFdou4TlDLBcWsaR/6i0X46DQNRppC95fZ4=",
+  "Source": "HelloApp",
+  "BasePath": "_content/HelloApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "HelloApp\\wwwroot",
+      "Source": "HelloApp",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\HelloApp\\HelloApp\\wwwroot\\",
+      "BasePath": "_content/HelloApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\user\\source\\repos\\HelloApp\\HelloApp\\wwwroot\\about.html",
+      "SourceId": "HelloApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\HelloApp\\HelloApp\\wwwroot\\",
+      "BasePath": "_content/HelloApp",
+      "RelativePath": "about.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\about.html"
+    },
+    {
+      "Identity": "C:\\Users\\user\\source\\repos\\HelloApp\\HelloApp\\wwwroot\\contact.html",
+      "SourceId": "HelloApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\HelloApp\\HelloApp\\wwwroot\\",
+      "BasePath": "_content/HelloApp",
+      "RelativePath": "contact.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\contact.html"
+    },
+    {
+      "Identity": "C:\\Users\\user\\source\\repos\\HelloApp\\HelloApp\\wwwroot\\index.html",
+      "SourceId": "HelloApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\HelloApp\\HelloApp\\wwwroot\\",
+      "BasePath": "_content/HelloApp",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
